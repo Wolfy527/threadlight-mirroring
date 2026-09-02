@@ -17,7 +17,7 @@ as its shared creator-side dependency. ThreadLight Components is a separate
 lightweight customer package for finished prefabs, not a Builder
 dependency.
 
-## Use
+## Instructions
 
 Open **Tools > ThreadLight > Mirroring**. Choose an existing
 setup to edit, or choose a prefab root and select **Create & Build**.
