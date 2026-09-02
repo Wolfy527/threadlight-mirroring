@@ -1,0 +1,16 @@
+{
+  "name": "Threadlight.MirroringBuilder.Editor",
+  "rootNamespace": "Threadlight.MirroringBuilder.Editor",
+  "references": [
+    "Threadlight.Mirroring.Editor"
+  ],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

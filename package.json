@@ -1,0 +1,19 @@
+{
+  "name": "com.wolfyvr.threadlight.mirroring",
+  "displayName": "ThreadLight Mirroring",
+  "version": "1.0.0",
+  "unity": "2022.3",
+  "description": "Focused ThreadLight editor for Live Mirroring authoring.",
+  "documentationUrl": "https://github.com/Wolfy527/threadlight-mirroring#readme",
+  "changelogUrl": "https://github.com/Wolfy527/threadlight-mirroring/blob/main/CHANGELOG.md",
+  "licensesUrl": "https://github.com/Wolfy527/threadlight-mirroring/blob/main/LICENSE.md",
+  "license": "LicenseRef-Threadlight-Proprietary",
+  "vpmDependencies": {
+    "com.wolfyvr.threadlight.authoring": ">=1.0.0 <2.0.0"
+  },
+  "author": {
+    "name": "WolfyVR",
+    "email": "Wolfy527@users.noreply.github.com",
+    "url": "https://github.com/Wolfy527"
+  }
+}
