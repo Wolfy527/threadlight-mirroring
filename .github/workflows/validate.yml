@@ -21,3 +21,10 @@ jobs:
         run: |
           jq -e . .vpm-listing/source.json > /dev/null
           jq -e . .vpm-listing/index.json > /dev/null
+
+      - name: Reject premature Add to VCC links
+        shell: bash
+        run: |
+          if [ "$(jq '.packages | length' .vpm-listing/index.json)" -eq 0 ]; then
+            ! grep -Fq 'wolfy527.github.io/threadlight-mirroring/?install=1' README.md
+          fi

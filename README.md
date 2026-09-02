@@ -4,13 +4,13 @@ A free, targets-focused editor tool for creating and updating Live Mirroring
 setups. It shares its authoring foundation with ThreadLight Builder while remaining
 a separate lightweight product.
 
+## Install
+
 <a href="https://wolfy527.github.io/threadlight-mirroring/?install=1">
   <img src=".github/assets/add-to-vcc-button.svg" alt="Add ThreadLight Mirroring to VCC" width="132">
 </a>
 
 VCC repository: `https://wolfy527.github.io/threadlight-mirroring/index.json`
-
-## Install
 
 Install `ThreadLight Mirroring` through VCC. VCC installs ThreadLight Authoring
 as its shared creator-side dependency. ThreadLight Components is a separate
