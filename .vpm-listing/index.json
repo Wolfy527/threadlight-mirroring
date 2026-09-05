@@ -7,6 +7,35 @@
   "packages": {
     "com.wolfyvr.threadlight.authoring": {
       "versions": {
+        "1.0.5": {
+          "name": "com.wolfyvr.threadlight.authoring",
+          "displayName": "ThreadLight Authoring",
+          "version": "1.0.5",
+          "unity": "2022.3",
+          "description": "Shared creator-side infrastructure for ThreadLight authoring tools.",
+          "license": "LicenseRef-Threadlight-Proprietary",
+          "documentationUrl": "https://github.com/Wolfy527/threadlight-authoring#readme",
+          "changelogUrl": "https://github.com/Wolfy527/threadlight-authoring/blob/main/CHANGELOG.md",
+          "licensesUrl": "https://github.com/Wolfy527/threadlight-authoring/blob/main/LICENSE.md",
+          "vpmDependencies": {
+            "com.vrchat.avatars": ">=3.7.0 <4.0.0",
+            "com.wolfyvr.threadlight.ui": ">=1.0.1 <2.0.0"
+          },
+          "samples": [
+            {
+              "displayName": "Live Mirroring Extension",
+              "description": "Compile-ready examples for validation, processing, previews, target builds, and extension health.",
+              "path": "Samples~/Live Mirroring Extension"
+            }
+          ],
+          "author": {
+            "name": "WolfyVR",
+            "email": "Wolfy527@users.noreply.github.com",
+            "url": "https://github.com/Wolfy527"
+          },
+          "url": "https://github.com/Wolfy527/threadlight-authoring/releases/download/v1.0.5/com.wolfyvr.threadlight.authoring-1.0.5.zip",
+          "zipSHA256": "69fc212c165512576261b85e91155df5d17a8fdcda246733d418be12f10652f2"
+        },
         "1.0.4": {
           "name": "com.wolfyvr.threadlight.authoring",
           "displayName": "ThreadLight Authoring",
@@ -139,6 +168,27 @@
     },
     "com.wolfyvr.threadlight.mirroring": {
       "versions": {
+        "1.0.1": {
+          "name": "com.wolfyvr.threadlight.mirroring",
+          "displayName": "ThreadLight Mirroring",
+          "version": "1.0.1",
+          "unity": "2022.3",
+          "description": "Focused ThreadLight editor for Live Mirroring authoring.",
+          "documentationUrl": "https://github.com/Wolfy527/threadlight-mirroring#readme",
+          "changelogUrl": "https://github.com/Wolfy527/threadlight-mirroring/blob/main/CHANGELOG.md",
+          "licensesUrl": "https://github.com/Wolfy527/threadlight-mirroring/blob/main/LICENSE.md",
+          "license": "LicenseRef-Threadlight-Proprietary",
+          "vpmDependencies": {
+            "com.wolfyvr.threadlight.authoring": ">=1.0.5 <2.0.0"
+          },
+          "author": {
+            "name": "WolfyVR",
+            "email": "Wolfy527@users.noreply.github.com",
+            "url": "https://github.com/Wolfy527"
+          },
+          "url": "https://github.com/Wolfy527/threadlight-mirroring/releases/download/v1.0.1/com.wolfyvr.threadlight.mirroring-1.0.1.zip",
+          "zipSHA256": "af2d40a60ab54b842c416d758f42f1bec23b23fdd7f8e3ef3a6da5240689a531"
+        },
         "1.0.0": {
           "name": "com.wolfyvr.threadlight.mirroring",
           "displayName": "ThreadLight Mirroring",
