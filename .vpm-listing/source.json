@@ -4,5 +4,10 @@
   "url": "https://wolfy527.github.io/threadlight-mirroring/index.json",
   "author": "WolfyVR",
   "description": "Focused ThreadLight editor for Live Mirroring authoring.",
-  "packages": {}
+  "packages": {},
+  "githubRepos": [
+    "Wolfy527/threadlight-authoring",
+    "Wolfy527/threadlight-mirroring",
+    "Wolfy527/threadlight-ui"
+  ]
 }
