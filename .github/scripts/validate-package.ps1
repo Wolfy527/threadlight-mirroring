@@ -34,8 +34,8 @@ if ($ExpectedName -eq "com.wolfyvr.threadlight.mirroring") {
         "com.wolfyvr.threadlight.authoring"
     ]
     if ($null -eq $coreDependency -or
-        $coreDependency.Value -ne ">=1.0.0 <2.0.0") {
-        throw "Threadlight Mirroring must depend on Threadlight Authoring 1.x."
+        $coreDependency.Value -ne ">=1.0.5 <2.0.0") {
+        throw "Threadlight Mirroring must require Threadlight Authoring 1.0.5 or newer within 1.x for customer export."
     }
     $componentsDependency = $manifest.vpmDependencies.PSObject.Properties[
         "com.wolfyvr.threadlight.components"

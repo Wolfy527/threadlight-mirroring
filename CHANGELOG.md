@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0
+## 1.0.1
 
-- Provide the focused Live Mirroring Builder on the shared ThreadLight
-  Authoring foundation while keeping customer Components independent.
+Requires the Authoring update that converts supported creator prefabs to customer
+components during export.
