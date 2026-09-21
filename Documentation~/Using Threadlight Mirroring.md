@@ -43,6 +43,11 @@ holder. The target cards below it define each source/mirrored relationship.
 The prefix, R/L labels, source and mirrored folder names, transform defaults,
 and unused-target cleanup use the same model as the full ThreadLight Builder.
 
+The summary above the cards shows how many targets are ready and how many need
+attention. Use **All Pairs** to review every relationship or **Problems Only** to
+focus on warnings and blockers. An empty Problems Only view means every
+configured target is ready; it does not mean the targets were removed.
+
 - **+ Add Target** adds an empty source/mirrored pair.
 - **Add Selected Objects** creates a new pair from exactly two selected
   transforms. Select the source first and the intended opposite-side target
@@ -65,6 +70,12 @@ Each target card has its own controls:
   calculated.
 - **Up**, **Down**, **Swap**, and **Remove** reorder, exchange, or remove that
   pair from the setup.
+
+Each card shows its current relationship state, including ready, planned target
+creation, duplicate targets, cycles, and other unsafe topology already detected
+by ThreadLight. Click a Build Checker message when it points to a current pair or
+field. ThreadLight expands and reveals that exact card or field; messages without
+enough provenance remain informational instead of guessing where to navigate.
 
 Choose **Build Setup** after changing pairs. It updates generated targets while
 preserving creator-authored content it does not own.
